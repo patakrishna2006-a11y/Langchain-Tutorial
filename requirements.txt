@@ -1,0 +1,49 @@
+# LangChain Core
+langchain
+langchain-core
+
+# Nvidia Integration
+langchain-nvidia-ai-endpoints
+
+# Google Gemini Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+sentence-transformers
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# Data Validation
+pydantic
+
+# LangChain Community (tools, loaders, vectorstores, utilities)
+langchain-community
+
+# Ollama Integration
+langchain-ollama
+
+# Chroma Vector Store
+langchain-chroma
+
+# Text Splitters
+langchain-text-splitters
+
+# Experimental Features
+langchain-experimental
+
+# Legacy/Classic Agents & Retrievers
+langchain-classic
+
+# External Dependencies
+wikipedia
+streamlit
+ddgs
