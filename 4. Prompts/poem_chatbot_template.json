@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "style_input",
+        "tone_input",
+        "user_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert poem writer. \n\n    Your task is to transform the core information provided below into a specific writing style and tone.\n\n    Core Information to Process:\n    {user_input}\n\n    Required Output Style:\n    {style_input}\n\n    Required Tone:\n    {tone_input}\n\n    Execution Instructions:\n    1. Rewrite the core information entirely in the requested style and tone.\n    2. Maintain the accuracy of the facts provided in the user input.\n    3. Do not add unnecessary meta-commentary or introduction; start directly with the output.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
