@@ -2,7 +2,7 @@
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 
 loader = DirectoryLoader(
-    path=r"C:\Users\patak\OneDrive\Desktop\Model",
+    path=r"C:\Users\patak\Desktop\Model",
     glob="**/*.pdf",
     loader_cls=PyPDFLoader,
     show_progress=True
